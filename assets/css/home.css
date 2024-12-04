@@ -1,0 +1,216 @@
+/* General Style */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('../image/to-do-2.jpg') no-repeat center center fixed; /* Add your own image URL */
+    background-size: cover;
+    color: #333;
+    height: 100vh;
+}
+
+/* Centered Title with Emojis */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(15, 1, 1);  /* Text color */
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    padding: 10px 30px;  /* Adds space around the text */
+    background-color: rgba(179, 255, 255, 0.7);  /* Background color with slight transparency */
+    border-radius: 30px;  /* Makes the background a rounded rectangle */
+    display: inline-block;  /* Makes the background fit the text width */
+    position: relative;  /* Makes the title maintain its own position */
+    left: 50%;  /* Move it to the center horizontally */
+    transform: translateX(-50%);  /* Adjust position to perfectly center */
+}
+
+
+/* Emoji Style for Titles */
+h1::before {
+    content: "📝";
+    font-size: 3rem;
+    margin-right: 10px;
+}
+
+h1::after {
+    content: "✨";
+    font-size: 3rem;
+    margin-left: 10px;
+}
+
+/* Container for Tasks */
+.singleTask {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px auto;
+    padding: 15px;
+    width: 60%;
+    display: flex;
+    font-weight: 800;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s;
+    animation: fadeIn 1s ease-in;
+}
+
+.singleTask:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Add fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Checkboxes */
+.delechack {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+/* Category Section */
+.catesec {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Form Styles */
+.form_class {
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+}
+
+/* Hover Effects for Form Inputs */
+.desc_Class input,
+.select_and_input select,
+.select_and_input input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.desc_Class input:hover,
+.select_and_input select:hover,
+.select_and_input input:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #f0f0f0;
+}
+
+/* Buttons */
+.buttonDesign {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.buttonDesign:hover {
+    transform: scale(1.1);
+}
+
+.colorGrey, .edit-button {
+    background-color: #607d8b;
+    color: white;
+}
+
+.colorRed {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Edit Section */
+.editClass {
+    transition: transform 0.3s;
+}
+
+.editClass a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    background-color: #673ab7;
+    transition: transform 0.3s ease;
+}
+
+.editClass a:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Task Name and Due Date */
+.name_and_dueDate {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.dueDate {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Categories with Icons */
+.work {
+    background-color: #ff9800;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Personal {
+    background-color: #2196f3;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Claeaning {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Otheres {
+    background-color: #9c27b0;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

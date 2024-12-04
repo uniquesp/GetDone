@@ -1,0 +1,21 @@
+{
+  "name": "getdone",
+  "version": "1.0.0",
+  "description": "to-do-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "uniquesp13",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.12.0",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
