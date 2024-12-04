@@ -81,16 +81,12 @@ GetDone/
 ## 📸 Screenshots
 
 ### 1. Home Page
-![Home Page](public/images/screenshots/homepage.png)
+![Home Page](https://github.com/uniquesp/GetDone/blob/main/screenshots/home-page.png)
 
-### 2. Add Task
-![Add Task](public/images/screenshots/add_task.png)
+### 2. Update Task
+![Update Task](https://github.com/uniquesp/GetDone/blob/main/screenshots/update-task.png)
 
-### 3. Update Task
-![Update Task](public/images/screenshots/update_task.png)
 
-### 4. Responsive View
-![Responsive View](public/images/screenshots/responsive_view.png)
 
 ---
 
