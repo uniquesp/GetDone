@@ -86,10 +86,7 @@ GetDone/
 ### 2. Update Task
 ![Update Task](https://github.com/uniquesp/GetDone/blob/main/screenshots/update-task.png)
 
-
-
 ---
-
 
 
 ## 🤝 Contributing
@@ -102,7 +99,6 @@ GetDone/
 
 ---
 
-
-
 Happy task managing with **GetDone**! 🚀
-```
+
+---
